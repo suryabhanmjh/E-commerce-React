@@ -21,7 +21,7 @@ const Register = () => {
     setLoading(true);
     try {
       // Check if email already exists
-      const usersResponse = await axios.get('http://localhost:3001/users');
+      const usersResponse = await axios.get('https://data-json-nwab.onrender.com/users');
       const emailExists = usersResponse.data.some(user => user.email === form.email);
       
       if (emailExists) {
@@ -37,7 +37,7 @@ const Register = () => {
         createdAt: new Date().toISOString()
       };
 
-      await axios.post('http://localhost:3001/users', userData);
+      await axios.post('https://data-json-nwab.onrender.com/users', userData);
       alert('Registration successful! Please login.');
       navigate('/login');
     } catch (error) {

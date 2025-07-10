@@ -22,14 +22,14 @@ const AdminBanners = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post('http://localhost:3001/banners', banner);
+    await axios.post('https://data-json-nwab.onrender.com/banners', banner);
     alert('✅ Banner Added!');
     setBanner({ title: '', desc: '', image: '' });
     fetchBanners();
   };
 
   const fetchBanners = async () => {
-    const res = await axios.get('http://localhost:3001/banners');
+    const res = await axios.get('https://data-json-nwab.onrender.com/banners');
     setBanners(res.data);
   };
 

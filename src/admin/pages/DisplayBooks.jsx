@@ -17,7 +17,7 @@ const DisplayBooks = () => {
 
   // Fetch all books
   const fetchBooks = async () => {
-    const res = await axios.get("http://localhost:3001/books");
+    const res = await axios.get("https://data-json-nwab.onrender.com/books");
     setBooks(res.data);
 
     // Extract unique categories for filter dropdown
@@ -32,7 +32,7 @@ const DisplayBooks = () => {
   // Delete book
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this book?")) {
-      await axios.delete(`http://localhost:3001/books/${id}`);
+      await axios.delete(`https://data-json-nwab.onrender.com/books/${id}`);
       fetchBooks();
     }
   };
@@ -57,7 +57,7 @@ const DisplayBooks = () => {
 
   // Save edit
   const handleEditSave = async (id) => {
-    await axios.put(`http://localhost:3001/books/${id}`, {
+    await axios.put(`https://data-json-nwab.onrender.com/books/${id}`, {
       ...editForm,
       price: Number(editForm.price)
     });
