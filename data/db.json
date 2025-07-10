@@ -1,0 +1,259 @@
+{
+  "books": [
+    {
+      "title": "abcd",
+      "author": "John Doe",
+      "category": "Programming",
+      "price": 299,
+      "description": "A complete guide to modern JavaScript.",
+      "image": "https://imgs.search.brave.com/pz5onO47BTqmr0viFBWULP6bq2g9DOr2-Govqb_LULM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFoYWdrRWh1Ykwu/anBn",
+      "id": "1"
+    },
+    {
+      "title": "shivam",
+      "author": "suman",
+      "category": "java",
+      "price": 646,
+      "description": "good book ",
+      "image": "https://imgs.search.brave.com/UszzEkcE-A0fs0U5dgAoFXYDCJf-BDGvhSV7cfWLoNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/ZnJvbnQuZnJlZXBp/ay5jb20vaG9tZS9h/bm9uLXJ2bXAvY3Jl/YXRpdmUtc3VpdGUv/YXVkaW8tY3JlYXRp/b24vdmlzdWFscy1z/b25ncy53ZWJw",
+      "id": "6f7e"
+    },
+    {
+      "id": "ca80",
+      "title": "love guru",
+      "author": "shivani",
+      "category": "fashion ",
+      "price": 499,
+      "description": "sdsg sdsgsggsg ",
+      "image": "https://imgs.search.brave.com/1xiQJ-ShL9RfvyQWsY4WOvk9zFkJ_MQsiAplySLv6mk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5hcnRpZmFjdHVw/cmlzaW5nLmNvbS9t/ZWRpYS9jYXRhbG9n/L3Byb2R1Y3QvYS9u/L2FubnVhbF9oYXJk/Y292ZXItaGVyby1w/ZHAtMDEuanBn"
+    }
+  ],
+  "banners": [
+    {
+      "id": "3158",
+      "title": "Sage",
+      "desc": "shivani",
+      "image": "https://imgs.search.brave.com/1xiQJ-ShL9RfvyQWsY4WOvk9zFkJ_MQsiAplySLv6mk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5hcnRpZmFjdHVw/cmlzaW5nLmNvbS9t/ZWRpYS9jYXRhbG9n/L3Byb2R1Y3QvYS9u/L2FubnVhbF9oYXJk/Y292ZXItaGVyby1w/ZHAtMDEuanBn"
+    }
+  ],
+  "users": [
+    {
+      "id": "1751995888055",
+      "name": "suman",
+      "email": "suman@gmail.com",
+      "password": "12",
+      "createdAt": "2025-07-08T17:31:28.055Z"
+    },
+    {
+      "id": "1751996672928",
+      "name": "vivky",
+      "email": "vk@gmail.com",
+      "password": "12",
+      "createdAt": "2025-07-08T17:44:32.928Z",
+      "address": "cybrom\n"
+    },
+    {
+      "id": "1752168388713",
+      "name": "sambhavi kumari",
+      "email": "samu@gmailcom",
+      "password": "samu@gmailcom",
+      "createdAt": "2025-07-10T17:26:28.713Z",
+      "address": "bihar surajgarha lakhisarai"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "9f64",
+      "userId": "1751996672928",
+      "items": [
+        {
+          "title": "shivam",
+          "author": "suman",
+          "category": "java",
+          "price": 646,
+          "description": "good book ",
+          "image": "https://imgs.search.brave.com/UszzEkcE-A0fs0U5dgAoFXYDCJf-BDGvhSV7cfWLoNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/ZnJvbnQuZnJlZXBp/ay5jb20vaG9tZS9h/bm9uLXJ2bXAvY3Jl/YXRpdmUtc3VpdGUv/YXVkaW8tY3JlYXRp/b24vdmlzdWFscy1z/b25ncy53ZWJw",
+          "id": "6f7e"
+        }
+      ],
+      "totalAmount": 646,
+      "purchaseDate": "2025-07-08T18:00:44.521Z",
+      "orderId": "ORD_1751997644521",
+      "paymentStatus": "pending",
+      "paymentUpdatedAt": "2025-07-10T08:43:30.848Z",
+      "paymentUpdatedBy": "admin"
+    },
+    {
+      "id": "9efd",
+      "userId": "1751996672928",
+      "items": [
+        {
+          "title": "shivam",
+          "author": "suman",
+          "category": "java",
+          "price": 646,
+          "description": "good book ",
+          "image": "https://imgs.search.brave.com/UszzEkcE-A0fs0U5dgAoFXYDCJf-BDGvhSV7cfWLoNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/ZnJvbnQuZnJlZXBp/ay5jb20vaG9tZS9h/bm9uLXJ2bXAvY3Jl/YXRpdmUtc3VpdGUv/YXVkaW8tY3JlYXRp/b24vdmlzdWFscy1z/b25ncy53ZWJw",
+          "id": "6f7e"
+        }
+      ],
+      "totalAmount": 646,
+      "purchaseDate": "2025-07-08T18:24:03.324Z",
+      "orderId": "ORD_1751999043325",
+      "paymentStatus": "paid"
+    },
+    {
+      "id": "dd9a",
+      "userId": "1751996672928",
+      "items": [
+        {
+          "title": "suman kumar",
+          "author": "suryabhan",
+          "category": "fashion ",
+          "price": 200,
+          "description": "fsfdsbdfvbdb fbdfgd ",
+          "image": "https://imgs.search.brave.com/puNveebk_YobrHVh29BgcDxlvNb6AGcra7oTwvNI950/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/cm9wLWhhbmRzLWhv/bGRpbmctb3BlbmVk/LWJvb2tfMjMtMjE0/Nzg5Njg3Ni5qcGc_/c2VtdD1haXNfaHli/cmlkJnc9NzQw",
+          "id": "b0f2",
+          "qty": 1
+        },
+        {
+          "title": "abcd",
+          "author": "John Doe",
+          "category": "Programming",
+          "price": 299,
+          "description": "A complete guide to modern JavaScript.",
+          "image": "https://imgs.search.brave.com/pz5onO47BTqmr0viFBWULP6bq2g9DOr2-Govqb_LULM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFoYWdrRWh1Ykwu/anBn",
+          "id": "1",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 499,
+      "purchaseDate": "2025-07-09T08:49:40.085Z",
+      "orderId": "ORD_1752050980085",
+      "paymentStatus": "paid",
+      "paymentMethod": "cod",
+      "deliveryAddress": "Sage Suncity phase 1",
+      "customerDetails": {
+        "name": "vivky",
+        "email": "vk@gmail.com"
+      },
+      "paymentUpdatedAt": "2025-07-09T09:00:19.753Z",
+      "paymentUpdatedBy": "admin"
+    },
+    {
+      "id": "8c18",
+      "userId": "1751996672928",
+      "items": [
+        {
+          "title": "shivam",
+          "author": "suman",
+          "category": "java",
+          "price": 646,
+          "description": "good book ",
+          "image": "https://imgs.search.brave.com/UszzEkcE-A0fs0U5dgAoFXYDCJf-BDGvhSV7cfWLoNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/ZnJvbnQuZnJlZXBp/ay5jb20vaG9tZS9h/bm9uLXJ2bXAvY3Jl/YXRpdmUtc3VpdGUv/YXVkaW8tY3JlYXRp/b24vdmlzdWFscy1z/b25ncy53ZWJw",
+          "id": "6f7e",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 646,
+      "purchaseDate": "2025-07-09T12:07:09.273Z",
+      "orderId": "ORD_1752062829273",
+      "paymentStatus": "paid",
+      "paymentMethod": "cod",
+      "deliveryAddress": "Sage Suncity phase 1",
+      "customerDetails": {
+        "name": "vivky",
+        "email": "vk@gmail.com"
+      },
+      "paymentUpdatedAt": "2025-07-09T12:07:35.845Z",
+      "paymentUpdatedBy": "admin"
+    },
+    {
+      "id": "8d4b",
+      "userId": "1751996672928",
+      "items": [
+        {
+          "id": "ca80",
+          "title": "love guru",
+          "author": "shivani",
+          "category": "fashion ",
+          "price": 499,
+          "description": "sdsg sdsgsggsg ",
+          "image": "https://imgs.search.brave.com/1xiQJ-ShL9RfvyQWsY4WOvk9zFkJ_MQsiAplySLv6mk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5hcnRpZmFjdHVw/cmlzaW5nLmNvbS9t/ZWRpYS9jYXRhbG9n/L3Byb2R1Y3QvYS9u/L2FubnVhbF9oYXJk/Y292ZXItaGVyby1w/ZHAtMDEuanBn",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 499,
+      "purchaseDate": "2025-07-09T12:37:14.898Z",
+      "orderId": "ORD_1752064634898",
+      "paymentStatus": "paid",
+      "paymentMethod": "upi",
+      "deliveryAddress": "cybrom\n",
+      "customerDetails": {
+        "name": "vivky",
+        "email": "vk@gmail.com"
+      },
+      "paymentUpdatedAt": "2025-07-09T12:38:44.289Z",
+      "paymentUpdatedBy": "admin"
+    },
+    {
+      "id": "b850",
+      "userId": "1751996672928",
+      "items": [
+        {
+          "title": "shivam",
+          "author": "suman",
+          "category": "java",
+          "price": 646,
+          "description": "good book ",
+          "image": "https://imgs.search.brave.com/UszzEkcE-A0fs0U5dgAoFXYDCJf-BDGvhSV7cfWLoNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/ZnJvbnQuZnJlZXBp/ay5jb20vaG9tZS9h/bm9uLXJ2bXAvY3Jl/YXRpdmUtc3VpdGUv/YXVkaW8tY3JlYXRp/b24vdmlzdWFscy1z/b25ncy53ZWJw",
+          "id": "6f7e",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 646,
+      "purchaseDate": "2025-07-09T12:38:26.115Z",
+      "orderId": "ORD_1752064706115",
+      "paymentStatus": "paid",
+      "paymentMethod": "cod",
+      "deliveryAddress": "cybrom\n",
+      "customerDetails": {
+        "name": "vivky",
+        "email": "vk@gmail.com"
+      },
+      "paymentUpdatedAt": "2025-07-09T12:38:47.544Z",
+      "paymentUpdatedBy": "admin"
+    },
+    {
+      "id": "0f5b",
+      "userId": "1751996672928",
+      "items": [
+        {
+          "id": "ca80",
+          "title": "love guru",
+          "author": "shivani",
+          "category": "fashion ",
+          "price": 499,
+          "description": "sdsg sdsgsggsg ",
+          "image": "https://imgs.search.brave.com/1xiQJ-ShL9RfvyQWsY4WOvk9zFkJ_MQsiAplySLv6mk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5hcnRpZmFjdHVw/cmlzaW5nLmNvbS9t/ZWRpYS9jYXRhbG9n/L3Byb2R1Y3QvYS9u/L2FubnVhbF9oYXJk/Y292ZXItaGVyby1w/ZHAtMDEuanBn",
+          "qty": 11
+        }
+      ],
+      "totalAmount": 5489,
+      "purchaseDate": "2025-07-10T08:36:01.568Z",
+      "orderId": "ORD_1752136561578",
+      "paymentStatus": "paid",
+      "paymentMethod": "cod",
+      "deliveryAddress": "ghghvh",
+      "customerDetails": {
+        "name": "vivky",
+        "email": "vk@gmail.com"
+      },
+      "paymentUpdatedAt": "2025-07-10T08:47:10.681Z",
+      "paymentUpdatedBy": "admin",
+      "orderStatus": "processing",
+      "orderUpdatedAt": "2025-07-10T08:47:15.459Z",
+      "orderUpdatedBy": "admin"
+    }
+  ]
+}
