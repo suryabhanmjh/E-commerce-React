@@ -81,11 +81,11 @@ const Checkout = () => {
       };
 
       // Save to database
-      await axios.post('https://data-json-nwab.onrender.com/purchases', purchase);
+      await axios.post('http://localhost:3001/purchases', purchase);
 
       // Update user address if provided
       if (deliveryAddress !== currentUser.address) {
-        await axios.patch(`https://data-json-nwab.onrender.com/users/${currentUser.id}`, {
+        await axios.patch(`http://localhost:3001/users/${currentUser.id}`, {
           address: deliveryAddress
         });
         

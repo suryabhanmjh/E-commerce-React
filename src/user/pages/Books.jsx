@@ -13,7 +13,7 @@ const Books = () => {
   const { updateCounts } = useCart();
 
   useEffect(() => {
-    axios.get("https://data-json-nwab.onrender.com/books").then((res) => {
+    axios.get("http://localhost:3001/books").then((res) => {
       setBooks(res.data);
       // Extract unique categories
       const cats = Array.from(new Set(res.data.map(b => b.category?.trim()).filter(Boolean)));
@@ -34,11 +34,11 @@ const Books = () => {
       navigate('/login');
       return;
     }
-    
+
     const currentUser = JSON.parse(localStorage.getItem('currentUser'));
     const cartKey = `cart_${currentUser.id}`;
     let cart = JSON.parse(localStorage.getItem(cartKey)) || [];
-    
+
     const already = cart.find(item => item.id === book.id);
     if (!already) {
       cart.push(book);
@@ -56,11 +56,11 @@ const Books = () => {
       navigate('/login');
       return;
     }
-    
+
     const currentUser = JSON.parse(localStorage.getItem('currentUser'));
     const savedKey = `saved_${currentUser.id}`;
     const saved = JSON.parse(localStorage.getItem(savedKey)) || [];
-    
+
     const alreadySaved = saved.find(item => item.id === book.id);
     if (!alreadySaved) {
       saved.push(book);
@@ -108,27 +108,31 @@ const Books = () => {
           {filteredBooks.map((book) => (
             <div
               key={book.id}
-              className="group bg-white rounded-xl shadow hover:shadow-lg transition-all duration-300 relative overflow-hidden"
+              className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 relative overflow-hidden flex flex-col"
             >
               {/* Save Heart Icon */}
-              <button 
+              <button
                 onClick={() => saveForLater(book)}
                 className="absolute top-3 right-3 text-gray-300 group-hover:text-red-500 text-xl transition-opacity opacity-0 group-hover:opacity-100 z-10"
               >
                 <FaHeart />
               </button>
 
-              <img
-                src={book.image}
-                alt={book.title}
-                className="h-48 w-full object-cover rounded-t-xl"
-              />
+              <div className="w-full h-60 bg-white flex items-center justify-center">
+                <img
+                  src={book.image}
+                  alt={book.title}
+                  className="h-full object-contain bg-white"
+                />
+              </div>
 
-              <div className="p-4 relative group-hover:bg-gray-50 transition-colors duration-300">
-                <h3 className="text-lg font-semibold">{book.title}</h3>
-                <p className="text-gray-600 text-sm mb-1">👤 {book.author}</p>
-                <p className="text-purple-700 font-bold mb-3">₹ {book.price}</p>
 
+              <div className="p-4 relative group-hover:bg-gray-50 transition-colors duration-300 flex-1 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-lg font-semibold">{book.title}</h3>
+                  <p className="text-gray-600 text-sm mb-1">👤 {book.author}</p>
+                  <p className="text-purple-700 font-bold mb-3">₹ {book.price}</p>
+                </div>
                 {/* Add to Cart (appears on hover) */}
                 <button
                   onClick={() => addToCart(book)}

@@ -1,39 +1,114 @@
 {
   "books": [
     {
-      "title": "abcd",
-      "author": "John Doe",
-      "category": "Programming",
+      "id": "31ea",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "category": "Finance",
+      "price": 410,
+      "description": "Timeless lessons on wealth, greed, and happiness — this book offers simple yet profound insights into how people think about money.",
+      "image": "https://m.media-amazon.com/images/I/71g2ednj0JL.jpg"
+    },
+    {
+      "title": "Wings of Fire",
+      "author": "Dr. A.P.J. Abdul Kalam",
+      "category": "Biography",
       "price": 299,
-      "description": "A complete guide to modern JavaScript.",
-      "image": "https://imgs.search.brave.com/pz5onO47BTqmr0viFBWULP6bq2g9DOr2-Govqb_LULM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFoYWdrRWh1Ykwu/anBn",
-      "id": "1"
+      "description": "The inspiring autobiography of India’s Missile Man and former President — a story of hope, resilience, and dedication.",
+      "image": "https://imgs.search.brave.com/qiMLIq2PPds6uqV77sMW__n9Zvfvy18_XVXrPpAcBIk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFRRzdaMGJ5a0wu/anBn",
+      "id": "399f"
     },
     {
-      "title": "shivam",
-      "author": "suman",
-      "category": "java",
-      "price": 646,
-      "description": "good book ",
-      "image": "https://imgs.search.brave.com/UszzEkcE-A0fs0U5dgAoFXYDCJf-BDGvhSV7cfWLoNs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/ZnJvbnQuZnJlZXBp/ay5jb20vaG9tZS9h/bm9uLXJ2bXAvY3Jl/YXRpdmUtc3VpdGUv/YXVkaW8tY3JlYXRp/b24vdmlzdWFscy1z/b25ncy53ZWJw",
-      "id": "6f7e"
-    },
-    {
-      "id": "ca80",
-      "title": "love guru",
-      "author": "shivani",
-      "category": "fashion ",
+      "id": "635b",
+      "title": "Zero to One",
+      "author": "Zero to One",
+      "category": "Business",
       "price": 499,
-      "description": "sdsg sdsgsggsg ",
-      "image": "https://imgs.search.brave.com/1xiQJ-ShL9RfvyQWsY4WOvk9zFkJ_MQsiAplySLv6mk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5hcnRpZmFjdHVw/cmlzaW5nLmNvbS9t/ZWRpYS9jYXRhbG9n/L3Byb2R1Y3QvYS9u/L2FubnVhbF9oYXJk/Y292ZXItaGVyby1w/ZHAtMDEuanBn"
+      "description": "Learn how to build startups that create new things instead of copying existing ideas. A must-read for entrepreneurs.",
+      "image": "https://m.media-amazon.com/images/I/71m-MxdJ2WL.jpg"
+    },
+    {
+      "id": "de75",
+      "title": "Ikigai",
+      "author": "Héctor García & Francesc Miralles",
+      "category": "Philosophy / Self-help",
+      "price": 299,
+      "description": "Discover the Japanese secret to a long and happy life. Ikigai is about finding purpose and joy in everyday living.",
+      "image": "https://m.media-amazon.com/images/I/71tbalAHYCL.jpg"
+    },
+    {
+      "id": "b7d6",
+      "title": "You Don’t Know JS",
+      "author": "Kyle Simpson",
+      "category": "Programming",
+      "price": 520,
+      "description": "A deep dive into JavaScript’s quirks and core concepts. Perfect for developers who want to truly master JS.",
+      "image": "https://m.media-amazon.com/images/I/81kqrwS1nNL.jpg"
+    },
+    {
+      "id": "e0aa",
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "category": "Self-help",
+      "price": 350,
+      "description": "A brutally honest self-help book that teaches you how to live a better life by caring less about the unimportant stuff.",
+      "image": "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg"
+    },
+    {
+      "id": "8815",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "category": "Finance",
+      "price": 399,
+      "description": "Learn the mindset and financial principles of the rich versus the poor. A must-read for anyone looking to grow their wealth and mindset.",
+      "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg"
+    },
+    {
+      "id": "2ac3",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "price": 299,
+      "description": "A beautiful story of self-discovery, spiritual awakening, and following your dreams told through the journey of a shepherd boy named Santiago.",
+      "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg"
+    },
+    {
+      "id": "30f9",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "price": 650,
+      "description": "This book teaches software engineers how to write clean, readable, and maintainable code, emphasizing best practices in software development.",
+      "image": "https://m.media-amazon.com/images/I/41jEbK-jG+L.jpg"
+    },
+    {
+      "id": "8d26",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self-help",
+      "price": 450,
+      "description": "A practical guide on how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.",
+      "image": "https://m.media-amazon.com/images/I/91bYsX41DVL.jpg"
     }
   ],
   "banners": [
     {
-      "id": "3158",
-      "title": "Sage",
-      "desc": "shivani",
-      "image": "https://imgs.search.brave.com/1xiQJ-ShL9RfvyQWsY4WOvk9zFkJ_MQsiAplySLv6mk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5hcnRpZmFjdHVw/cmlzaW5nLmNvbS9t/ZWRpYS9jYXRhbG9n/L3Byb2R1Y3QvYS9u/L2FubnVhbF9oYXJk/Y292ZXItaGVyby1w/ZHAtMDEuanBn"
+      "title": "Back to School Sale",
+      "subtitle": "Gear up with must-read books at unbeatable prices. Flat 50% off for students!",
+      "image": "https://imgs.search.brave.com/irAc2d-EVwhxf84mT0NtqkZVnUa1vwqJQAeiyyhdTvU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/YmFjay1zY2hvb2wt/c2FsZS1iYW5uZXIt/d2l0aC1ncmFwaGl0/ZS1wZW5jaWwtdHlw/b2dyYXBoeS1sZXR0/ZXItYmxhY2stY2hh/bGtib2FyZF8xMzE0/LTI1MDguanBnP3Nl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MA",
+      "id": "fcb2"
+    },
+    {
+      "title": "New Arrivals: Tech & Coding",
+      "subtitle": "Explore the latest books on Python, JavaScript, AI & more. Learn. Build. Grow.",
+      "image": "https://imgs.search.brave.com/XAbiCacnCGWfvs9Bw_fU6vkFdFU439KcH-PKRFrdhf4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/cmVzaXplZC5jby9z/aWxpY29ucmVwdWJs/aWMvZXlKa1lYUmhJ/am9pZTF3aWRYSnNY/Q0k2WENKb2RIUndj/enBjWEZ3dlhGeGNM/M2QzZHk1emFXeHBZ/Mjl1Y21Wd2RXSnNh/V011WTI5dFhGeGNM/M2R3TFdOdmJuUmxi/blJjWEZ3dmRYQnNi/MkZrYzF4Y1hDOHlN/REkxWEZ4Y0x6QTFY/RnhjTDBOb1lXOXpZ/VzF5WVc1ZlUzUjFa/R2x2TG1wd1pXZGNJ/aXhjSW5kcFpIUm9Y/Q0k2TkRRMExGd2lh/R1ZwWjJoMFhDSTZN/ek16TEZ3aVpHVm1Z/WFZzZEZ3aU9sd2lh/SFIwY0hNNlhGeGNM/MXhjWEM5M2QzY3Vj/MmxzYVdOdmJuSmxj/SFZpYkdsakxtTnZi/VnhjWEM5M2NDMWpi/MjUwWlc1MFhGeGNM/M1Z3Ykc5aFpITmNY/Rnd2TWpBeE5GeGNY/Qzh4TWx4Y1hDOHlN/REV6TURKY1hGd3Zj/SFY2ZW14bExtcHda/MXdpTEZ3aWIzQjBh/Vzl1YzF3aU9udGNJ/bTkxZEhCMWRGd2lP/bHdpWVhacFpsd2lM/RndpY1hWaGJHbDBl/VndpT2x3aU5qVmNJ/bjE5SWl3aWFHRnph/Q0k2SW1Nd1pUTXlN/V1JpT1RnM1ltRTNZ/bVZtTkdZek5qazRN/ekppWWpFMFptRTJa/akZsTlRZMU1qQWlm/UT09L2NoYW9zYW1y/YW4tc3R1ZGlvLmpw/ZWc_dj0yMDI1MDQw/Mg",
+      "id": "294e"
+    },
+    {
+      "title": "Mega Discount on Fiction",
+      "subtitle": "Dive into the world of imagination with bestsellers up to 60% off.",
+      "image": "https://imgs.search.brave.com/yw-sNd3w2622X76EgnR2737HikQzUU9O27b7X7960Hw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA0LzI1Lzk4LzQ4/LzM2MF9GXzQyNTk4/NDgwM19TeTBQNnNv/YWVUNUZPdWt1ZEJF/YUtKUFBBWDhmVDR4/bS5qcGc",
+      "id": "9965"
     }
   ],
   "users": [
@@ -59,6 +134,13 @@
       "password": "samu@gmailcom",
       "createdAt": "2025-07-10T17:26:28.713Z",
       "address": "bihar surajgarha lakhisarai"
+    },
+    {
+      "id": "1752236873948",
+      "name": "suryabhan",
+      "email": "123@gmail.com",
+      "password": "1234",
+      "createdAt": "2025-07-11T12:27:53.948Z"
     }
   ],
   "purchases": [
@@ -253,6 +335,37 @@
       "paymentUpdatedBy": "admin",
       "orderStatus": "processing",
       "orderUpdatedAt": "2025-07-10T08:47:15.459Z",
+      "orderUpdatedBy": "admin"
+    },
+    {
+      "id": "6508",
+      "userId": "1752236873948",
+      "items": [
+        {
+          "id": "635b",
+          "title": "Zero to One",
+          "author": "Zero to One",
+          "category": "Business",
+          "price": 499,
+          "description": "Learn how to build startups that create new things instead of copying existing ideas. A must-read for entrepreneurs.",
+          "image": "https://m.media-amazon.com/images/I/71m-MxdJ2WL.jpg",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 499,
+      "purchaseDate": "2025-07-11T12:29:33.301Z",
+      "orderId": "ORD_1752236973301",
+      "paymentStatus": "paid",
+      "paymentMethod": "cod",
+      "deliveryAddress": "sage",
+      "customerDetails": {
+        "name": "suryabhan",
+        "email": "123@gmail.com"
+      },
+      "paymentUpdatedAt": "2025-07-11T12:30:05.181Z",
+      "paymentUpdatedBy": "admin",
+      "orderStatus": "shipped",
+      "orderUpdatedAt": "2025-07-16T05:57:12.864Z",
       "orderUpdatedBy": "admin"
     }
   ]

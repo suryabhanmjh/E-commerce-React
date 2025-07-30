@@ -10,7 +10,7 @@ const BookDetails = () => {
     const { updateCounts } = useCart();
 
     useEffect(() => {
-        axios.get(`https://data-json-nwab.onrender.com/books/${id}`)
+        axios.get(`http://localhost:3001/books/${id}`)
             .then(res => setBook(res.data))
             .catch(err => console.error("Failed to fetch book", err));
     }, [id]);

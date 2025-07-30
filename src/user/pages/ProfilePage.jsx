@@ -30,13 +30,13 @@ const ProfilePage = () => {
         return;
       }
 
-      const response = await axios.get(`https://data-json-nwab.onrender.com/users/${storedUser.id}`);
+      const response = await axios.get(`http://localhost:3001/users/${storedUser.id}`);
       setCurrentUser(response.data);
       setAddress(response.data.address || '');
 
       // Fetch purchase history
       try {
-        const purchasesResponse = await axios.get(`https://data-json-nwab.onrender.com/purchases?userId=${storedUser.id}`);
+        const purchasesResponse = await axios.get(`http://localhost:3001/purchases?userId=${storedUser.id}`);
         setPurchases(purchasesResponse.data);
       } catch (error) {
         console.log('No purchase history found');
@@ -52,7 +52,7 @@ const ProfilePage = () => {
 
   const handleAddressUpdate = async () => {
     try {
-      await axios.patch(`https://data-json-nwab.onrender.com/users/${currentUser.id}`, {
+      await axios.patch(`http://localhost:3001/users/${currentUser.id}`, {
         address: address
       });
       

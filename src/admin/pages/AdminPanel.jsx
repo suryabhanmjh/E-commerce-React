@@ -29,7 +29,7 @@ const AdminPanel = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('https://data-json-nwab.onrender.com/books', {
+      await axios.post('http://localhost:3001/books', {
         ...form,
         price: Number(form.price)
       });

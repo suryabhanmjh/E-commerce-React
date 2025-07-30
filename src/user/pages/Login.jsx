@@ -23,7 +23,7 @@ const Login = () => {
     setLoading(true);
     try {
       // Get all users from db.json
-      const response = await axios.get('https://data-json-nwab.onrender.com/users');
+      const response = await axios.get('http://localhost:3001/users');
       const users = response.data;
       
       // Find user with matching email and password
