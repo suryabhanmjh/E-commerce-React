@@ -8,12 +8,12 @@ const Dashboard = () => {
 
   useEffect(() => {
     // Fetch books count
-    axios.get('http://localhost:3001/books')
+    axios.get('https://data-json-nwab.onrender.com/books')
       .then(res => setBooksCount(res.data.length))
       .catch(() => setBooksCount(0));
 
     // Fetch banners count
-    axios.get('http://localhost:3001/banners')
+    axios.get('https://data-json-nwab.onrender.com/banners')
       .then(res => setBannersCount(res.data.length))
       .catch(() => setBannersCount(0));
 

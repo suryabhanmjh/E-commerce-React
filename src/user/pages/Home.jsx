@@ -32,7 +32,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get("http://localhost:3001/books")
+    axios.get("https://data-json-nwab.onrender.com/books")
       .then(res => setBooks(res.data))
       .catch(() => setBooks([]));
   }, []);

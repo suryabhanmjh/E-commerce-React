@@ -13,8 +13,8 @@ const UserDetail = () => {
   const fetchData = async () => {
     try {
       const [usersRes, purchasesRes] = await Promise.all([
-        fetch('http://localhost:3001/users'),
-        fetch('http://localhost:3001/purchases')
+        fetch('https://data-json-nwab.onrender.com/users'),
+        fetch('https://data-json-nwab.onrender.com/purchases')
       ])
       
       const usersData = await usersRes.json()
@@ -49,7 +49,7 @@ const UserDetail = () => {
 
   const updatePaymentStatus = async (purchaseId, newStatus) => {
     try {
-      const response = await fetch(`http://localhost:3001/purchases/${purchaseId}`, {
+      const response = await fetch(`https://data-json-nwab.onrender.com/purchases/${purchaseId}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -81,7 +81,7 @@ const UserDetail = () => {
   // New: Update order status
   const updateOrderStatus = async (purchaseId, newStatus) => {
     try {
-      const response = await fetch(`http://localhost:3001/purchases/${purchaseId}`, {
+      const response = await fetch(`https://data-json-nwab.onrender.com/purchases/${purchaseId}`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',

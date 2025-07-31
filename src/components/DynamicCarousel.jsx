@@ -8,7 +8,7 @@ const DynamicCarousel = () => {
   const timeoutRef = useRef(null);
 
   useEffect(() => {
-    axios.get("http://localhost:3001/banners")
+    axios.get("https://data-json-nwab.onrender.com/banners")
       .then(res => setBanners(res.data))
       .catch(err => console.log("Banner load error", err));
   }, []);

@@ -9,7 +9,7 @@ const DisplayBanners = () => {
   const navigate = useNavigate();
 
   const fetchBanners = async () => {
-    const res = await axios.get('http://localhost:3001/banners');
+    const res = await axios.get('https://data-json-nwab.onrender.com/banners');
     setBanners(res.data);
   };
 
@@ -19,7 +19,7 @@ const DisplayBanners = () => {
 
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this banner?")) {
-      await axios.delete(`http://localhost:3001/banners/${id}`);
+      await axios.delete(`https://data-json-nwab.onrender.com/banners/${id}`);
       setBanners(banners.filter(b => b.id !== id));
     }
   };
@@ -35,7 +35,7 @@ const DisplayBanners = () => {
 
   const handleEditSave = async (id) => {
     const updated = { ...editData, id };
-    await axios.put(`http://localhost:3001/banners/${id}`, updated);
+    await axios.put(`https://data-json-nwab.onrender.com/banners/${id}`, updated);
     setBanners(banners.map(b => (b.id === id ? updated : b)));
     setEditId(null);
   };

@@ -13,7 +13,7 @@ const Books = () => {
   const { updateCounts } = useCart();
 
   useEffect(() => {
-    axios.get("http://localhost:3001/books").then((res) => {
+    axios.get("https://data-json-nwab.onrender.com/books").then((res) => {
       setBooks(res.data);
       // Extract unique categories
       const cats = Array.from(new Set(res.data.map(b => b.category?.trim()).filter(Boolean)));
