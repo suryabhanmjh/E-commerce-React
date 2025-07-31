@@ -11,7 +11,7 @@ const AdminLogin = () => {
     if (email === "admin@gmail.com" && pass === "admin123") {
       localStorage.setItem("adminLoggedIn", "true");
       alert("✅ Login successful");
-      navigate("/admin/dashboard");
+      navigate("/admin");
     } else {
       alert("❌ Invalid credentials");
     }
