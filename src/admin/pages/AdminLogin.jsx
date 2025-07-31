@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const AdminLogin = () => {
@@ -6,12 +6,24 @@ const AdminLogin = () => {
   const [pass, setPass] = useState('');
   const navigate = useNavigate();
 
+  // Check if already logged in
+  useEffect(() => {
+    const isLoggedIn = localStorage.getItem("adminLoggedIn");
+    if (isLoggedIn === "true") {
+      navigate("/admin", { replace: true });
+    }
+  }, [navigate]);
+
   const handleLogin = (e) => {
     e.preventDefault();
     if (email === "admin@gmail.com" && pass === "admin123") {
       localStorage.setItem("adminLoggedIn", "true");
+      localStorage.setItem("adminEmail", email);
       alert("✅ Login successful");
-      navigate("/admin");
+      // Force navigation with replace
+      setTimeout(() => {
+        window.location.href = "/admin";
+      }, 100);
     } else {
       alert("❌ Invalid credentials");
     }
@@ -95,6 +107,9 @@ const AdminLogin = () => {
             Login
           </button>
         </form>
+        <div style={{ marginTop: "20px", fontSize: "12px", color: "#666" }}>
+          Default: admin@gmail.com / admin123
+        </div>
       </div>
     </div>
   );
