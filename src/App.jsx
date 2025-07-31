@@ -49,7 +49,7 @@ function App() {
         {/* Admin Side */}
         <Route path="/admin/login" element={<AdminLogin />} />
 
-        {/* Admin Layout + Protected Routes */}
+        {/* Admin Layout + Protected Routes  */}
         <Route path="/admin" element={
           <AdminProtectedRoute>
             <AdminLayout />
